@@ -1,4 +1,4 @@
-# ![8.8] twitter_block2mute ![9.9]
+# ![9.9] twitter_block2mute ![8.8]
 A tool for turning the Twitter users you have blocked into mutes. :seedling:
 
 This script will take accounts you have [blocked](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts), unblock them and mute them. Users that you unblock will be able to view your profile and message you, while muted they will not appear in your feeds.
@@ -38,5 +38,5 @@ Comments, critiques, need help? Contact me [![alt text][6.3]][3]  [![alt text][1
 [6.3]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 [3]: https://github.com/antoinemcgrath
 
-[8.8]: https://i.imgur.com/Q80dBc7.png  (Twitter verified icon)
+[8.8]: https://imgur.com/xIihGGC.png  (No Audio icon)
 [9.9]: https://i.imgur.com/ShevBEa.png  (Blocked Twitter verified icon)
