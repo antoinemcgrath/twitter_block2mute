@@ -111,8 +111,8 @@ def get_blocked_list():
 
 def block2mute(one_user):
     #print(one_user.screen_name, "\t", one_user.id, "\t",
-          "Blocked:", one_user.blocking,
-          " Muting:", one_user.muting)
+    #      "Blocked:", one_user.blocking,
+    #      " Muting:", one_user.muting)
     try:
         api.create_mute(one_user.id, monitor_rate_limit=True, wait_on_rate_limit=True)
         #print("Muted")
