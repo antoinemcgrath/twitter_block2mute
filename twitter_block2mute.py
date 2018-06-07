@@ -102,20 +102,22 @@ def get_blocked_list():
 ### Tweepy users have made requests for support of mute & unmute:
 ##     https://github.com/tweepy/tweepy/issues/528
 ##     https://github.com/tweepy/tweepy/issues/919
+##
 ### Responding to these requests and my own needs
 ### a branch with mute & unmute ability has been submitted for tweepy admin approval:
+##
 ##     https://github.com/tweepy/tweepy/pull/1055/commits
 ####
 
 def block2mute(one_user):
-    print(one_user.screen_name, "\t", one_user.id, "\t",
+    #print(one_user.screen_name, "\t", one_user.id, "\t",
           "Blocked:", one_user.blocking,
           " Muting:", one_user.muting)
     try:
         api.create_mute(one_user.id, monitor_rate_limit=True, wait_on_rate_limit=True)
-        print("Muted")
+        #print("Muted")
         api.destroy_block(one_user.id, monitor_rate_limit=True, wait_on_rate_limit=True)
-        print("Unblocked")
+        #print("Unblocked")
     except Exception as e:
         er = e
         if e.api_code == 160:
@@ -136,10 +138,13 @@ def block2mute(one_user):
 blocks = get_blocked_list()
 
 while len(blocks) > 0:
-    print("New Blocks list count is:", len(blocks))
+    #print("New Blocks list count is:", len(blocks))
     for one_user in blocks:
         block2mute(one_user)
         counter = add_2_counter(counter)
+    # Evidently the api.create_mute() push is rate limited & does not respond to wait_on_rate_limit=True
+    # Until further notice we will put a 15 min wait each 100 calls to mute
+    time.sleep(15 * 60)
     blocks = get_blocked_list()
 
 ###################################################################
