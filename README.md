@@ -1,16 +1,16 @@
 # ![9.9] twitter_block2mute ![8.8]
-A tool for turning the Twitter users you have blocked into mutes. :seedling:
+A tool for unblocking Twitter users and into muting them instead. :seedling:
 
 This script will take accounts you have [blocked](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts), unblock them and mute them.
-Users that you unblock will be able to view your profile and message you, while muted they will not appear in your feeds [more details on muting & blocking](https://www.guidingtech.com/twitter-block-vs-mute-difference/).
+Users that you unblock will be able to view your profile and message you, however while they are muted they will not appear in your feeds [more details on muting & blocking](https://www.guidingtech.com/twitter-block-vs-mute-difference/).
 
 
 This script is...
 - NOT advisable for those who have used the block feature to protect their safety & privacy
-- This script SHOULD be considered by **politicians** who have violated the [First Amendment by preventing constituents from viewing and replying to tweets](https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html)
+- This script SHOULD be considered by **politicians**
 - This script SHOULD be used by anyone **ordered by a federal judge to unblock twitter users**
-- This script SHOULD be used by any **U.S. President ordered by U.S. District Judge Naomi Reice Buchwald** to unblock twitter users [nudge nudge](https://en.wikipedia.org/wiki/Naomi_Reice_Buchwald#Knight_First_Amendment_Institute_v._Donald_J._Trump)
-- You get the idea, Representatives should do this.
+- This script SHOULD be used by any representative [violating First Amendment rights by preventing constituents from viewing and replying to tweets](https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html)
+- You get the idea, [Representatives](https://en.wikipedia.org/wiki/Naomi_Reice_Buchwald#Knight_First_Amendment_Institute_v._Donald_J._Trump) should do this.
 
 
 This script will need to be rerun periodically if you continue to use the block feature.
