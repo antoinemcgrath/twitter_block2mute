@@ -5,10 +5,17 @@
 ## Users that you unblock will be able to view your profile and message you.
 ## While muted users will not appear in your feeds.
 
-## This script is NOT advisable for those who have used the block feature to protect their safety & privacy
-## This script SHOULD be considered by politicians who have violated the First Amendment by preventing constituents from viewing and replying to posts
-## This script SHOULD be used by anyone ordered by a federal judge in Manhattan to unblock users
-## https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html
+
+## This script is...
+
+##    NOT advisable for those who have used the block feature to protect their safety & privacy
+##    This script SHOULD be considered by politicians
+##    This script SHOULD be used by anyone ordered by a federal judge to unblock twitter users
+##    This script SHOULD be used by any representative violating First Amendment rights by preventing constituents from viewing and replying to tweets
+##    https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html
+##    You get the idea, Representatives should do this.
+
+
 
 ## This script will need to be rerun periodically if you continue to use the block feature.
 ## When this script was written in June 2018 a total.
