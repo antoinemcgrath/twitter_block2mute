@@ -5,13 +5,12 @@ This script will take accounts you have [blocked](https://help.twitter.com/en/us
 Users that you unblock will be able to view your profile and message you, while muted they will not appear in your feeds [more details on muting & blocking](https://www.guidingtech.com/twitter-block-vs-mute-difference/).
 
 
-##This script is...
-
--NOT advisable for those who have used the block feature to protect their safety & privacy
--This script SHOULD be considered by **politicians** who have violated the [First Amendment by preventing constituents from viewing and replying to tweets](https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html)
--This script SHOULD be used by anyone **ordered by a federal judge in Manhattan to unblock twitter users**
--This script SHOULD be used by any **U.S. President ordered by U.S. District Judge Naomi Reice Buchwald** to unblock users [nudge nudge](https://en.wikipedia.org/wiki/Naomi_Reice_Buchwald#Knight_First_Amendment_Institute_v._Donald_J._Trump)
--You get the idea, Representatives: Do this!
+This script is...
+*NOT advisable for those who have used the block feature to protect their safety & privacy
+*This script SHOULD be considered by **politicians** who have violated the [First Amendment by preventing constituents from viewing and replying to tweets](https://www.nytimes.com/2018/05/23/business/media/trump-twitter-block.html)
+*This script SHOULD be used by anyone **ordered by a federal judge in Manhattan to unblock twitter users**
+*This script SHOULD be used by any **U.S. President ordered by U.S. District Judge Naomi Reice Buchwald** to unblock users [nudge nudge](https://en.wikipedia.org/wiki/Naomi_Reice_Buchwald#Knight_First_Amendment_Institute_v._Donald_J._Trump)
+*You get the idea, Representatives: Do this!
 
 
 This script will need to be rerun periodically if you continue to use the block feature.
