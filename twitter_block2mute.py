@@ -39,8 +39,8 @@ def get_api_keys():
     try:    #### Attempt to load API keys file
         keys_json = json.load(open('/usr/local/keys.json'))
         #### Specify key dictionary wanted (generally [Platform][User][API])
-        Keys = keys_json["Twitter"]["ClimateCong_Bot"]["ClimatePolitics"]
-        #Keys = keys_json["Twitter"]["AGreenDCBike"]["HearHerVoice"]
+        #Keys = keys_json["Twitter"]["ClimateCong_Bot"]["ClimatePolitics"]
+        Keys = keys_json["Twitter"]["AGreenDCBike"]["HearHerVoice"]
     except Exception as e:
         er = e
         if er.errno == 2: #File not found enter key dictionary values manually
@@ -84,7 +84,7 @@ def add_2_counter(counter):
     counter += 1
     if counter % 100 == 0:
         timed = calc_time()
-        print("Time elapsed:", timed, " Users blocked:", str(counter))
+        print("Time elapsed:", timed, " Users unblocked & muted:", str(counter))
     else:
         print(counter, end='\r')
         pass
