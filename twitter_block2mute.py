@@ -43,6 +43,9 @@ def get_api_keys():
         #### Specify key dictionary wanted (generally [Platform][User][API])
         #Keys = keys_json["Twitter"]["USER"]["API"]
         #Or simply leave blank and fill in manually
+        #Keys = keys_json["Twitter"]["ClimateCong_Bot"]["ClimatePolitics"]
+        Keys = keys_json["Twitter"]["AGreenDCBike"]["HearHerVoice"]
+
     except Exception as e:
         er = e
         if er.errno == 2: #File not found enter key dictionary values manually
