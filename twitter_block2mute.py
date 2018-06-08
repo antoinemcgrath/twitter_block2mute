@@ -18,7 +18,9 @@
 
 
 ## This script will need to be rerun periodically if you continue to use the block feature.
-## When this script was written in June 2018 a total.
+## This script was written in June 2018 a total.
+## At this time Tweepy does not support mute, instead use this Tweepy branch or simply add this code https://github.com/tweepy/tweepy/pull/1055/commits
+
 
 #### Import dependencies
 import json
@@ -39,8 +41,8 @@ def get_api_keys():
     try:    #### Attempt to load API keys file
         keys_json = json.load(open('/usr/local/keys.json'))
         #### Specify key dictionary wanted (generally [Platform][User][API])
-        #Keys = keys_json["Twitter"]["ClimateCong_Bot"]["ClimatePolitics"]
-        Keys = keys_json["Twitter"]["AGreenDCBike"]["HearHerVoice"]
+        #Keys = keys_json["Twitter"]["USER"]["API"]
+        #Or simply leave blank and fill in manually
     except Exception as e:
         er = e
         if er.errno == 2: #File not found enter key dictionary values manually

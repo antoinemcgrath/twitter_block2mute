@@ -1,5 +1,5 @@
 # ![9.9] twitter_block2mute ![8.8]
-A tool for unblocking Twitter users and into muting them instead. :seedling:
+A tool for unblocking Twitter users and muting them instead. :seedling:
 
 This script will take accounts you have [blocked](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts), unblock them and mute them.
 Users that you unblock will be able to view your profile and message you, however while they are muted they will not appear in your feeds [more details on muting & blocking](https://www.guidingtech.com/twitter-block-vs-mute-difference/).
